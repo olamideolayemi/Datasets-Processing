@@ -1,11 +1,11 @@
-Problem Statement
+Problem Statement:
 Develop a Python program that performs the following tasks using the Sales Transactions Dataset:
 Downloads a dataset from the web.
 Reads up to 200 rows and saves it into another file.
 Analyzes the data to report the number of rows, columns, and unique classes in the last column.
 Uses linear regression to predict dependent variables.
 
-Problem Specification
+Problem Specification:
 Requirements:
 Download a CSV dataset from Kaggle.
 Handle all exceptions during downloading and processing.
@@ -16,7 +16,7 @@ Datasets:
 Sales Transactions Dataset
 
 
-Analysis
+Analysis:
 The solution involves:
 
 Downloading the dataset: Using requests library.
@@ -25,7 +25,7 @@ Analyzing data: Reporting basic statistics (rows, columns, classes).
 Building a model: Using scikit-learn for linear regression.
 
 
-Results
+Results:
 When executed:
 - The dataset is downloaded and saved to a file named 'car_prices.csv (named after the kaggle dataset)'.
 - The first 200 rows are saved to a new file named 'For_Prediction.csv'.
